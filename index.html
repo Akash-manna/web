@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pujo Bangla</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+	<h1>Pujo Bangla</h1>
+	<h6>This year Festive will come to your House<h6>
+</div>
+<div class="head" id="myHeader">
+<div class="topnav" id="myTopnav">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i>Home</a>  
+  <a href="#"><i class="fa fa-photo"></i>Picture</a>
+  <a href="#"><i class="fa fa-fw fa-user"></i>About</a>
+  <a href="#" class="key"><i class="fa fa-user-circle"></i>Login</a>
+  <a href="#"  class="key"><i class="fa fa-user-plus"></i>Signup</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction1()"><i class="fa fa-bars"></i></a>
+</div>
+</div>
+
+<div class="content">
+  <h1>Newton</h1>
+  <p>2017 Hindi best movie</p>
+  <p>Newton is a 2017 Indian comedy drama film co-written and directed by Amit V. Masurkar.[3][4] 
+		The film stars Rajkummar Rao, Pankaj Tripathi, Anjali Patil and Raghubir Yadav. The film was produced by</p>
+	<p>	Manish Mundra under Drishyam Films, known for the 2015 film Masaan, and the film is Amit Masurkar’s second
+		feature after his debut film,[5] Sulemani Keeda in 2013.</p>
+	<p> Newton had its world premiere in the Forum section of the 67th Berlin International Film Festival.
+	 The film received universal acclaim, securing eight nominations at the 63rd Filmfare Awards, 
+	 including Best Film (Critics), Best Actor (Critics) for Rao and Best Supporting Actor for Tripathi, </p>
+	 <p>while winning Best Film and Filmfare Award for Best Story. Rao won the Asia Pacific Screen Award for Best 
+	 Actor[6] and the writers won the award for Best Screenplay.[7] Newton was also awarded the National Film Award </p>
+	 <p>for Best Feature Film in Hindi. Pankaj Tripathi won a special mention at 65th National Film Awards.[8] The was
+	 selected as the Indian entry for the Best Foreign Language Film at the 90th Academy Awards.[9][10]</p>
+	<h2>Plot</h2>
+	<p>Nutan (Newton) Kumar, a rookie government clerk on reserve is sent on election duty to a Nicolette-Maoist insurgency
+	Naxal-controlled town in the conflict-ridden jungles of India, when one of the main duty officers is found to be facing 
+	heart problems. Faced with the apathy of war-torn security forces and the looming fear of guerrilla attacks by communist</p>
+	<p>rebels, he tries his best to conduct free and fair voting despite the odds stacked against him. He is disappointed when 
+	the voters do not turn up for the election. Later when a foreign reporter turns up at the polling station the security</p> 
+	<p>forces force the villagers from the constituency to turn up to cast their votes. When one of them enters the polling booth,
+	he becomes bewildered with the voting machine and its operation.</p>
+	<p>After talking to the lot, soon Newton realizes that they have no idea what the election is about. Some thought they would
+	earn money from this, while others asked hopelessly about getting paid sufficiently for their work. He desperately tries </p>
+	
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+function myFunction1() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+</body>
+</html>
